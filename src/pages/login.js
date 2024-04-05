@@ -41,15 +41,15 @@ import { auth } from "../firebase";
 
       <form onSubmit={handleSubmit}>
  
-<input type="email" placeholder="ramesh@gmail.com"/>
-<input type="password" placeholder="ramesh123"/>
+<input type="email" placeholder="ganesh@gmail.com"/>
+<input type="password" placeholder="ganesh123"/>
  
 
 <button>Sign In</button>
 {err && <span>Some thing went wrong</span>}
 
       </form  >
-      <p>if you have account? <Link to="/registor">Register</Link></p>
+      <p>if you don't have account? <Link to="/registor">Register</Link></p>
 
     
 
